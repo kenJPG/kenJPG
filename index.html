@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./main.css" />
+	<title>?</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js" integrity="sha512-6zTDRWNxo8vI6JZYDCwhrJpg5icK3P4HNnW3czsO5Scb3lAoPDam+/wF3eog4hxcl0h44d0XlIcFkuoSaWHQ2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/ScrollTrigger.min.js" integrity="sha512-I+JeBiUY5B5/qJ6ey5CNqJ0yhAuNHBBbRjdM3alkabxCLz3++7hbeOScVSjyRouAihQIiint6Z2Or976vU2XuQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/6c79692c59.js" crossorigin="anonymous"></script>
+	<div class="fullscreen_message d-none">
+		Please view in full page mode at https://codepen.io/kenjpg/full/OJzazPJ
+	</div>
+	<div class="name" style="font-size: 5rem;">
+		<span>I</span>
+		<span>'</span>
+		<span>m</span>
+		<span>&nbsp;</span>
+		<span>K</span>
+		<span>e</span>
+		<span>n</span>
+		<span>n</span>
+		<span>e</span>
+		<span>t</span>
+		<span>h</span>
+		<div class="name_blocker_container">
+			<div class="name_blocker">
+			</div>
+		</div>
+	</div>
+	<div class="cover_container">
+		<div class="cover"></div>
+	</div>
+	<div class="hi_msg">
+		<span style="font-size: 5rem;">Hi</span>
+	</div>
+	<div class="intro_text_container none">
+		<div class="intro_text_box">
+			<div class="sp_text">
+				<div class="first_blocker">
+				</div>
+				<div class="text" style="display: inline-block; z-index: 5; position: relative;">
+					I study
+				</div>
+				<div class="second_blocker">
+				</div>
+				<h1 class="text" style="margin-top: 3vh; position: relative; z-index: 3">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						width="195px" height="120px">
+					<defs>
+						<pattern id="water" width=".25" height="1.1" patternContentUnits="objectBoundingBox">
+							<path fill="#000" d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.303,0.158,0.334,0.25,0C0.25,0.327,0.25,1,0.25,1z"/>
+						</pattern>
+						<text id="text" transform="translate(2,116)" font-family="'Montesserat', sans-serif" font-size="161.047">AI</text>
+						<mask id="text-mask">
+							<use x="0" y="0" xlink:href="#text" opacity="1" fill="#ffffff"/>
+						</mask>
+						<g id="eff">
+							<use x="0" y="0" xlink:href="#text" fill="#F7665E"/>
+						
+							<rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" x="-300" y="50" width="1200" height="120" opacity="0.05">
+								<animate attributeType="xml" attributeName="x" from="-300" to="0" repeatCount="indefinite" dur="2s"/>
+							</rect>
+							<rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" y="45" width="1600" height="120" opacity="0.05">
+								<animate attributeType="xml" attributeName="x" from="-400" to="0" repeatCount="indefinite" dur="3s"/>
+							</rect>
+								
+							<rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" y="55" width="800" height="120" opacity="0.10">
+								<animate attributeType="xml" attributeName="x" from="-200" to="0" repeatCount="indefinite" dur="1.4s"/>
+							</rect>
+								<rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" y="55" width="2000" height="120" opacity="0.10">
+								<animate attributeType="xml" attributeName="x" from="-500" to="0" repeatCount="indefinite" dur="2.8s"/>
+							</rect>
+						</g>
+					</defs>
+					
+					<use xlink:href="#eff" opacity="0.9" style="mix-blend-mode:color-burn"/>
+					</svg>
+				</h1>
+				<div class="third_blocker">
+				</div>
+				<div class="text">
+					at Singapore Poly
+				</div>
+			</div>
+			<div class="laptop_img">
+				<!-- Original code from Lucas Bebber https://codepen.io/lbebber/pen/EVxvWN -->
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="400px" height="350px">
+					<defs>
+						<pattern id="circle_water" width=".25" height="10.5" patternContentUnits="objectBoundingBox">
+							<path fill="#000" d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.303,0.158,0.334,0.25,0C0.25,0.327,0.25,1,0.25,1z"/>
+						</pattern>
+						<circle id="input_1" transform="translate(75,60)" cx="0" cy="0" r="20" />
+						<circle id="input_2" transform="translate(75,60)" cx="0" cy="0" r="20" />
+						<circle id="input_3" transform="translate(75,60)" cx="0" cy="0" r="20" />
+						<circle id="output_1" transform="translate(75,60)" cx="0" cy="0" r="20" />
+						<text id="text_input_1" transform="translate(0,64)">input 1</text>
+						<text id="text_input_2" transform="translate(0,64)">input 2</text>
+						<text id="text_input_3" transform="translate(0,64)">input 3</text>
+						<text id="text_output_1" transform="translate(53,30)">output</text>
+						<g id="node_1">
+							<use x="0" y="0" xlink:href="#input_1" fill="#F7665E"/>
+							<use x="0" y="0" xlink:href="#text_input_1" fill="#000" font-family="'Nunito', sans-serif" font-weight="bold" />
+						</g>
+						<g id="node_2" transform="translate(0, 100)">
+							<use x="0" y="0" xlink:href="#input_2" fill="#F7665E"/>
+							<use x="0" y="0" xlink:href="#text_input_2" fill="#000" font-family="'Nunito', sans-serif" font-weight="bold" />
+						</g>
+						<g id="node_3" transform="translate(0, 200)">
+							<use x="0" y="0" xlink:href="#input_3" fill="#F7665E"/>
+							<use x="0" y="0" xlink:href="#text_input_3" fill="#000" font-family="'Nunito', sans-serif" font-weight="bold" />
+						</g>
+						<g id="node_4" transform="translate(200, 100)">
+							<use x="0" y="0" xlink:href="#output_1" fill="#9AB7D3"/>
+							<use x="0" y="0" xlink:href="#text_output_1" fill="#000" font-family="'Nunito', sans-serif" font-weight="bold" />
+						</g>
+						<g id="edge_1" transform="translate(200, 100)">
+							<use x="0" y="0" xlink:href="#path_1" fill="#000"/>
+						</g>
+					</defs>
+					
+					<use xlink:href="#node_1" opacity="0.9" />
+					<use xlink:href="#node_2" opacity="0.9" />
+					<use xlink:href="#node_3" opacity="0.9" />
+					<use xlink:href="#node_4" opacity="0.9" />
+					<use xlink:href="#edge_1" opacity="0.9" />
+				</svg>
+			</div>
+		</div>
+	</div>
+	<div class="game_text_container none" style="z-index: 5;">
+		<div class="game_text_box">
+			<div class="game_text">
+				<div class="first_game_blocker">
+				</div>
+				<div class="text" style="display: inline-block; z-index: 5; position: relative;">
+					and love playing games!
+					<p style="color: grey; font-size: 2rem; margin-top: 2rem;">
+						try one I made!
+						<i class="fa-solid fa-arrow-right"></i>
+					</p>
+				</div>
+			</div>
+			<div class="game_img">
+				<div style="background: white; width: auto; height: auto;">
+					<canvas id="myCanvas" width="640" height="480">
+              loading....
+					</canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="starter" style="width: 100vw; height: 50vh;">
+	</div>
+	<div class="square_container none">
+		<div class="square_box" style="position: absolute;">
+			<div class="square">
+			</div>
+		</div>
+	</div>
+	<div class="walking_container">
+	</div>
+	<div class="laptop_appear_container">
+	</div>
+	<div style="width: 100vw; height: 60vh;">
+	</div>
+	<div class="ending_laptop_appear_container">
+	</div>
+	<div style="width: 100vw; height: 30vh"></div>
+	<div class="ending_game_appear_container">
+	</div>
+	<footer style="height: 200vh; width: 100%;">
+	</footer>
+
+	<script src="./main.js"></script>
+</body>
+</html>

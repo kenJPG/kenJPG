@@ -1,0 +1,205 @@
+:root {
+	font-family: "Montserrat", sans-serif;
+	overflow-x: hidden;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.d-none {
+	display: none;
+}
+
+.none {
+	opacity: 0;
+}
+
+.fullscreen_message {
+	width: 100vw;
+	height: 100vh;
+	background: black;
+	color: white;
+	position: fixed;
+	z-index: 1000;
+	font-size: 1.3rem;
+}
+
+.hi_msg, .name, .cover_container, .laptop_img_container {
+	position: fixed;
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.blocker_container {
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: space-between;
+}
+
+.upper_blocker, .lower_blocker {
+	position: fixed;
+	display: inline-block;
+	width: 60vw;
+	height: 30vh;
+	background: pink;
+}
+
+.lower_blocker {
+	background: blue;
+}
+
+.name_blocker_container {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background: transparent;
+}
+
+.name_blocker {
+	width: 100%;
+	height: calc(50vh - 3rem);
+	background: white;
+}
+
+.laptop_img_container > div {
+	position: absolute;
+}
+
+.cover {
+	transform-origin: left;
+	width: 100vw;
+	height: 5rem;
+	background: white;
+	transform: scaleX(1.5);
+}
+
+.square_container {
+	height: 80vw;
+}
+
+.square {
+	width: 9.5rem;
+	height: 9.5rem;
+	background: salmon;
+}
+
+.walking_container {
+	height: 80vw;
+}
+
+.laptop_appear_container {
+	height: 20vh;
+}
+
+.intro_text_container {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.intro_text_box {
+	width: 80%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sp_text {
+	position: relative;
+	width: 50%;
+	font-size: 4rem;
+	text-align: center;
+}
+
+.laptop_img {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.first_blocker {
+	position: absolute;
+	width: 100%;
+	height: 5rem;
+	background: white;
+	margin-top: -4.2rem;
+	z-index: 6;
+}
+
+.second_blocker {
+	position: absolute;
+	width: 100%;
+	height: 10rem;
+	background: white;
+	margin-top: -9rem;
+	z-index: 4;
+}
+
+.third_blocker {
+	position: absolute;
+	width: 100%;
+	height: 5rem;
+	background: white;
+	margin-top: -4.2rem;
+	z-index: 2;
+	transform-origin: bottom;
+	transform: scaleY(2);
+}
+
+.ending_laptop_appear_container {
+	height: 20vh;
+}
+
+.game_text_container {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.game_text_box {
+	width: 80%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.game_text {
+	position: relative;
+	width: 50%;
+	font-size: 4rem;
+	text-align: center;
+}
+
+.laptop_img {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.first_blocker {
+	position: absolute;
+	width: 100%;
+	height: 5rem;
+	background: white;
+	margin-top: -4.2rem;
+	z-index: 6;
+}
